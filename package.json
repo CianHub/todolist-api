@@ -1,0 +1,29 @@
+{
+  "name": "todolist_api",
+  "version": "1.0.0",
+  "description": "An API for a To-Do List",
+  "main": "index.js",
+  "dependencies": {
+    "common.js": "^1.1.1",
+    "express": "^4.16.4",
+    "jasmine": "^3.2.0",
+    "node": "^10.12.0",
+    "sass": "^1.14.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine spec/spec.js",
+    "comp": "sass styles/main.scss styles/main.css",
+    "watch": "sass --watch styles/main.scss:styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CianHub/todolist-api.git"
+  },
+  "author": "Cian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CianHub/todolist-api/issues"
+  },
+  "homepage": "https://github.com/CianHub/todolist-api#readme"
+}
