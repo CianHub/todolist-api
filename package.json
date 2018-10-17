@@ -12,17 +12,16 @@
     "mongoose": "^5.3.4",
     "node": "^10.12.0",
     "nodemon": "^1.18.4",
-    "sass": "^1.14.2"
-  },
-  "devDependencies": {
+    "sass": "^1.14.2",
     "node-sass": "^4.9.4"
+
   },
+  "devDependencies": {},
   "scripts": {
     "test": "jasmine spec/spec.js",
     "comp": "node-sass -o public public",
     "watch": "nodemon -e scss -x \"npm run comp\" & npm run watch-code",
     "watch-code": "nodemon index.js",
-    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -33,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/CianHub/todolist-api/issues"
   },
-  "homepage": "https://github.com/CianHub/todolist-api#readme"
+  "engines": {
+    "node": "^10.12.0"
+  }
+
 }
