@@ -21,7 +21,8 @@
     "test": "jasmine spec/spec.js",
     "comp": "node-sass -o public public",
     "watch": "nodemon -e scss -x \"npm run comp\" & npm run watch-code",
-    "watch-code": "nodemon index.js"
+    "watch-code": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
