@@ -4,6 +4,7 @@
   "description": "An API for a To-Do List",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "common.js": "^1.1.1",
     "express": "^4.16.4",
@@ -21,7 +22,6 @@
     "comp": "node-sass -o public public",
     "watch": "nodemon -e scss -x \"npm run comp\" & npm run watch-code",
     "watch-code": "nodemon index.js"
-
   },
   "repository": {
     "type": "git",

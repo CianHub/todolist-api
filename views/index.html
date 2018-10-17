@@ -7,11 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>To-Do List</title>
     <link rel='stylesheet' type="text/css" href='main.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+
+
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <p>List goes here</p>
+    <header>
+        <h1>todo<span>list</span></h1>
+        <h2>A simple todo list app built with node.js, express and MongoDB</h2>
+    </header>
+
+    <section class="form">
+        <input type="text" id="todoInput" placeholder="Insert your task here...">
+    </section>
+
+    <ul class="list" id='list'>
+    </ul>
     <script src='app.js'></script>
 </body>
 
